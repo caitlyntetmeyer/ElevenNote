@@ -27,5 +27,9 @@ namespace ElevenNote.Models
             get; set;
         }
 
+        public bool IsStarred
+        {
+            get; set;
+        }
     }
 }
